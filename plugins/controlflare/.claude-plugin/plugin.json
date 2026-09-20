@@ -1,0 +1,13 @@
+{
+  "name": "controlflare",
+  "description": "A hard monthly billing cap for Cloudflare Workers, over Controlflare's hosted MCP server.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Controlflare",
+    "url": "https://controlflare.com"
+  },
+  "homepage": "https://controlflare.com/agents/",
+  "repository": "https://github.com/Controlflare/claude-marketplace",
+  "keywords": ["cloudflare", "workers", "billing", "cost", "finops", "mcp"],
+  "mcpServers": "./.mcp.json"
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "controlflare": {
+      "type": "http",
+      "url": "https://app.controlflare.com/mcp"
+    }
+  }
+}

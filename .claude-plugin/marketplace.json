@@ -1,0 +1,26 @@
+{
+  "$schema": "https://code.claude.com/schemas/marketplace.json",
+  "name": "controlflare",
+  "description": "Controlflare's own plugins for Claude Code. Currently one: the hosted Controlflare MCP server, for reading Cloudflare spend and enforcing a hard monthly cap.",
+  "owner": {
+    "name": "Controlflare",
+    "url": "https://controlflare.com"
+  },
+  "plugins": [
+    {
+      "name": "controlflare",
+      "source": "./plugins/controlflare",
+      "displayName": "Controlflare",
+      "description": "A hard monthly billing cap for Cloudflare Workers. Read estimated month-to-date spend across Workers, D1, R2, KV and Durable Object requests, set or clear the cap, and pause or resume Workers. Four of the twelve tools stop production traffic.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Controlflare",
+        "url": "https://controlflare.com"
+      },
+      "homepage": "https://controlflare.com/agents/",
+      "repository": "https://github.com/Controlflare/claude-marketplace",
+      "keywords": ["cloudflare", "workers", "billing", "cost", "finops", "mcp"],
+      "category": "integration"
+    }
+  ]
+}
