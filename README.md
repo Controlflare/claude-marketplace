@@ -31,12 +31,12 @@ then on. Revoke it by removing the plugin, or from the Controlflare dashboard.
 
 Twelve tools, of three kinds.
 
-**Reading (eight).** `list_cloudflare_accounts`, `get_account`,
-`get_estimated_spend`, `list_workloads`, `list_events`, plus `sync_account`
-to take a fresh reading now.
+**Reading (five).** `list_cloudflare_accounts`, `get_account`,
+`get_estimated_spend`, `list_workloads`, `list_events`.
 
-**Changing the cap (two).** `set_billing_cap` sets or clears the hard monthly
-limit in USD. `set_enforcement` turns automatic pausing on or off.
+**Changing a setting (three).** `set_billing_cap` sets or clears the hard
+monthly limit in USD, `set_enforcement` turns automatic pausing on or off, and
+`sync_account` takes a fresh reading from Cloudflare now.
 
 **Stopping traffic (four).** `pause_workload`, `resume_workload`,
 `pause_all_workloads`, `resume_all_workloads`.
